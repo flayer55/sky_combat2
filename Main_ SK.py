@@ -36,7 +36,6 @@ class Base:
         arcade.draw_texture_rectangle(self.x, self.y, self.size , self.size,
                                       self.img, 360 - self.ang)
 
-
     def move(self):
         self.dx = sin(radians(self.ang))
         self.dy = cos(radians(self.ang))
